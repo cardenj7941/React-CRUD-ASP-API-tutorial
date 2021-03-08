@@ -4,7 +4,7 @@ export const ACTION_TYPES = {
     CREATE:'CREATE',
     UPDATE:'UPDATE',
     DELETE:'DELETE',
-    FETCH:'FETCH'
+    FETCH_ALL:'FETCH_ALL'
 }
 
 export const fetchAll = () => dispatch => {
